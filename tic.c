@@ -64,7 +64,7 @@ void updateBoard(char x) {
 		// Show the avail spaces and corresponding number
 		printBoard();
 		// Ask
-		printf("Player %c: What space would you like to take? (1-9)\n");
+		printf("Player %c: What space would you like to take? (1-9)\n", x);
 		// Scan for a number
 		scanf("%d", &chose);
 	}
